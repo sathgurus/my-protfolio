@@ -7,6 +7,7 @@ import ProfilePicture from "./components/ProfilePicture";
 import ContactSection from "./components/ContactSection";
 import ExperienceContent from "./components/ExperienceContent";
 import Skills from "./Skills";
+import ProjectSection from "./components/ProjectsSection";
 
 
 
@@ -38,17 +39,43 @@ const Body = () => {
                         </Card.Body>
                     </Card> */}
                 </Col>
-                <Col lg={12}>
+                <Col lg={8}>
                     <Card className="mt-3">
                         <Card.Body style={{ background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)' }}>
                             <Row>
-                                <section id="about">
-                                    <ExperienceContent />
+
+                                <section id="skills">
+                                    <Skills />
                                 </section>
                             </Row>
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col lg={4}></Col>
+                <Col lg={3}></Col>
+                <Col lg={9}>
+                    <Card className="mt-3">
+                        <Card.Body style={{ background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)' }}>
+                            <Row>
+                                <section id="experience">
+                                    <ExperienceContent />
+                                </section>
+
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col lg={9}>
+                <Card className="mt-3">
+                        <Card.Body style={{ background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)' }}>
+                            <Row>
+                                <section id="project">
+                                    <ProjectSection />
+                                </section>
+
+                            </Row>
+                        </Card.Body>
+                    </Card></Col>
             </Row>
         </Container>
     )

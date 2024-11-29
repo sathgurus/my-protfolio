@@ -16,11 +16,11 @@ const ProfilePicture = () => {
             <Row className="mb-3">
                 <Col lg={12}>
                     <h1 style={{
-                        background: 'linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)',
+                      //  background: 'linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)',
                         WebkitBackgroundClip: 'text',  // This makes the background apply to text
-                        color: 'transparent',          // Makes the text color transparent so the gradient shows
+                        color: 'white',          // Makes the text color transparent so the gradient shows
                         fontSize: '50px',
-                        fontFamily: 'sans-serif',
+                        //fontFamily: 'sans-serif',
                         fontWeight: 'bold',
                     }}>
                         <Typewriter
@@ -35,16 +35,16 @@ const ProfilePicture = () => {
                             deleteSpeed={50}
                             delaySpeed={1000}
                             textStyle={{
-                                color: "linear-gradient(to top, #fff1eb 0%, #ace0f9 100%)",
+                                color: "",
                                 fontSize: "50px",
-                                fontFamily: "sans-serif",
+                                //fontFamily: "sans-serif",
                             }}
                         />
                     </h1>
 
                 </Col>
                 {/* <Col lg={12} className='mt-3'>
-                    <h1 style={{ color: 'white', fontSize: '25px', fontFamily: 'cursive', fontWeight: 'bold' }}>Passionate creating great web application and mobile application</h1>
+                    <h1 style={{ color: 'white', fontSize: '25px',  fontWeight: 'bold' }}>Passionate creating great web application and mobile application</h1>
                 </Col> */}
             </Row>
         </>

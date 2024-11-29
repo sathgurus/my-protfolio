@@ -10,7 +10,7 @@ const SkillsModal = ({ show, setShow }) => {
             </Modal.Header>
             <Modal.Body>
                 <Col lg={12}>
-                    <Form.Label style={{ color: 'black', fontSize: '22px', fontFamily: 'cursive', fontWeight: 'bold', }}>
+                    <Form.Label style={{ color: 'black', fontSize: '22px',  fontWeight: 'bold', }}>
                         <h5> Web Development</h5>
                     </Form.Label>
                 </Col>
@@ -24,7 +24,7 @@ const SkillsModal = ({ show, setShow }) => {
                 </Col>
                 <Col lg={12}>
 
-                    <Form.Label style={{ color: 'black', fontSize: '22px', fontFamily: 'cursive', fontWeight: 'bold', }}>
+                    <Form.Label style={{ color: 'black', fontSize: '22px',  fontWeight: 'bold', }}>
                         <h5> Mobile App Development</h5>
                     </Form.Label>
                 </Col>
@@ -37,7 +37,7 @@ const SkillsModal = ({ show, setShow }) => {
                 </Col>
                 <Col lg={12}>
 
-                    <Form.Label style={{ color: 'black', fontSize: '22px', fontFamily: 'cursive', fontWeight: 'bold', }}>
+                    <Form.Label style={{ color: 'black', fontSize: '22px',  fontWeight: 'bold', }}>
                         <h5>General Programming Skills</h5>
                     </Form.Label>
                 </Col>

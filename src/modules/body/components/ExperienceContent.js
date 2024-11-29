@@ -6,7 +6,7 @@ const ExperienceContent = () => {
     return (
         <>
             <Col lg={12} className="mt-2" >
-                <Form.Label style={{ color: 'black', fontSize: '16px', fontFamily: 'cursive', fontWeight: 'bold', borderBottom: '1px solid gray' }}>
+                <Form.Label style={{ color: 'black', fontSize: '16px', fontWeight: 'bold', borderBottom: '1px solid gray' }}>
                     <h1>Working Experience</h1>
                 </Form.Label>
             </Col>

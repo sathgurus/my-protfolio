@@ -7,8 +7,8 @@ const ContactSection = () => {
         <>
             <Row className="mb-4">
                 <Col md={3} xs={6} className="mt-4">
-                    <Button variant="" style={{backgroundColor:'black',color:'white',borderRadius:'20px',fontSize:'12px'}}>
-                        <a href="#about"> Talk with me</a>
+                    <Button variant="" style={{border:'1px solid #6c757d',color:'white',borderRadius:'20px',fontSize:'12px'}}>
+                        <a href="#about" style={{textDecoration:'none'}}> Talk with me</a>
                        
                     </Button>
                 </Col>
