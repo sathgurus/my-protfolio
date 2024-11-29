@@ -25,9 +25,9 @@ const Body = () => {
                             <Row>
                                 <AboutMe />
                             </Row>
-                            <Row style={{ borderTop: '1px solid gray' }}>
+                            {/* <Row style={{ borderTop: '1px solid gray' }}>
                                 <ContactSection />
-                            </Row>
+                            </Row> */}
 
                         </Card.Body>
                     </Card>
