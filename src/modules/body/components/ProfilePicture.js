@@ -20,7 +20,7 @@ const ProfilePicture = () => {
                         WebkitBackgroundClip: 'text',  // This makes the background apply to text
                         color: 'transparent',          // Makes the text color transparent so the gradient shows
                         fontSize: '50px',
-                        fontFamily: 'cursive',
+                        fontFamily: 'sans-serif',
                         fontWeight: 'bold',
                     }}>
                         <Typewriter
@@ -37,7 +37,7 @@ const ProfilePicture = () => {
                             textStyle={{
                                 color: "linear-gradient(to top, #fff1eb 0%, #ace0f9 100%)",
                                 fontSize: "50px",
-                                fontFamily: "cursive",
+                                fontFamily: "sans-serif",
                             }}
                         />
                     </h1>
