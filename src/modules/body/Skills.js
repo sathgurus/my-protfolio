@@ -1,5 +1,4 @@
 import { Col, Container, Form, Image, Row } from "react-bootstrap";
-import htmlLogo from '../../assets/images/html-design-logo.png'
 
 
 const Skills = () => {
