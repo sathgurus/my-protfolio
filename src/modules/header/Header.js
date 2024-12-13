@@ -64,28 +64,28 @@ const Header = () => {
                     <Col className="" lg={9}>
                         <Row >
                             {/*  */}
-                            <Col lg={3} style={{ color: '#e2ebf0', }}>
+                            <Col lg={3} style={{ color: 'white', }}>
                                 <Form.Label style={{ cursor: 'pointer', fontWeight: 'bold' }} >
-                                    <a href="#skills" style={{ textDecoration: 'none', color: '#e2ebf0' }}>
+                                    <a href="#skills" style={{ textDecoration: 'none', color: 'white' }}>
                                         Skills
                                     </a>
                                 </Form.Label>
                             </Col>
 
-                            <Col lg={3} style={{ color: '#e2ebf0', }}>
+                            <Col lg={3} style={{ color: 'white', }}>
                                 <Form.Label style={{ cursor: 'pointer', fontWeight: 'bold' }} >
-                                    <a href="#experience" style={{ textDecoration: 'none', color: '#e2ebf0' }}>
+                                    <a href="#experience" style={{ textDecoration: 'none', color: 'white' }}>
                                         Experience
                                     </a>
 
                                 </Form.Label></Col>
-                            <Col lg={3} style={{ color: '#e2ebf0', }}>
+                            <Col lg={3} style={{ color: 'white', }}>
                                 <Form.Label style={{ cursor: 'pointer', fontWeight: 'bold' }} >
-                                    <a href="#project" style={{ textDecoration: 'none', color: '#e2ebf0' }}>
+                                    <a href="#project" style={{ textDecoration: 'none', color: 'white' }}>
                                         Project
                                     </a>
                                 </Form.Label></Col>
-                            <Col lg={3} style={{ color: '#e2ebf0', fontWeight: 'bold' }}>  <Form.Label style={{ cursor: 'pointer' }} >
+                            <Col lg={3} style={{ color: 'white', fontWeight: 'bold' }}>  <Form.Label style={{ cursor: 'pointer' }} >
                                 <a style={{ textDecoration: 'none', color: 'white' }} href="/Sathgurunathan_resume.pdf" download="Sathgurunathan_Resume.pdf">
                                     Resume
                                 </a>
