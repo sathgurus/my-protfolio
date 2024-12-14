@@ -10,6 +10,7 @@ import ProjectModal from "../body/components/Modal/ProjectModal";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import ResponsiveNavbar from "./Dropdown";
+import AppNavbar from "./Navbar";
 
 
 
@@ -55,54 +56,12 @@ const Header = () => {
 
 
     return (
-        <Container fluid>
-            {/* */}
-            {isMobile ? <ResponsiveNavbar />
-                : <Row className="align-items-center mt-2 mb-5">
-                    <Col lg={3}> <Image src={coder} height={40} /></Col>
-
-                    <Col className="" lg={9}>
-                        <Row >
-                            {/*  */}
-                            <Col lg={3} style={{ color: 'white', }}>
-                                <Form.Label style={{ cursor: 'pointer', fontWeight: 'bold' }} >
-                                    <a href="#skills" style={{ textDecoration: 'none', color: 'white' }}>
-                                        Skills
-                                    </a>
-                                </Form.Label>
-                            </Col>
-
-                            <Col lg={3} style={{ color: 'white', }}>
-                                <Form.Label style={{ cursor: 'pointer', fontWeight: 'bold' }} >
-                                    <a href="#experience" style={{ textDecoration: 'none', color: 'white' }}>
-                                        Experience
-                                    </a>
-
-                                </Form.Label></Col>
-                            <Col lg={3} style={{ color: 'white', }}>
-                                <Form.Label style={{ cursor: 'pointer', fontWeight: 'bold' }} >
-                                    <a href="#project" style={{ textDecoration: 'none', color: 'white' }}>
-                                        Project
-                                    </a>
-                                </Form.Label></Col>
-                            <Col lg={3} style={{ color: 'white', fontWeight: 'bold' }}>  <Form.Label style={{ cursor: 'pointer' }} >
-                                <a style={{ textDecoration: 'none', color: 'white' }} href="/Sathgurunathan_resume.pdf" download="Sathgurunathan_Resume.pdf">
-                                    Resume
-                                </a>
-                            </Form.Label></Col>
-                        </Row>
-                    </Col>
-                    {/* <Col lg={3} className="d-flex justify-content-end">
-                        <Button variant="outline-light" style={{ borderRadius: '20px', fontSize: '12px' }}>
-                            See my work
-                        </Button>
-                    </Col> */}
-                </Row>}
-
-            {skills && <SkillsModal show={skills} setShow={setSkills} />}
-            {experience && <ExperienceModal show={experience} setShow={setExperience} />}
-            {project && <ProjectModal show={project} setShow={setProject} />}
+        <Container>
+            <AppNavbar />
         </Container>
+
+
+
     )
 }
 

@@ -37,3 +37,75 @@
     transform: rotate(360deg);
   }
 }
+
+.social-icon {
+  font-size: 35px !important;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Add hover effects for all icons */
+.social-icon:hover {
+  transform: scale(1.3); /* Increases the size of the icon */
+}
+
+.card-zoom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-zoom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid #007bff;
+}
+
+.custom-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.4);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-radius: 20px !important;
+}
+
+.custom-button:hover {
+  /* box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.6); */
+  transform: translateY(-2px);
+}
+
+@keyframes moveUpDown {
+  0% {
+      transform: translateY(0); /* Start position */
+  }
+  50% {
+      transform: translateY(-35px); /* Move up */
+  }
+  100% {
+      transform: translateY(0); /* Return to start position */
+  }
+}
+
+/* Apply the animation to the image */
+.profile-image {
+  animation: moveUpDown 8s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+
+@keyframes slideInFromTop {
+  0% {
+      transform: translateY(-50px); /* Start above the screen */
+      opacity: 0; /* Start invisible */
+  }
+  100% {
+      transform: translateY(0); /* End at the normal position */
+      opacity: 1; /* Make it fully visible */
+  }
+}
+
+/* Apply the animation to the elements */
+.slide-in {
+  animation: slideInFromTop 5s ease-out forwards; /* Duration 1s, easing out */
+  opacity: 0;
+}
