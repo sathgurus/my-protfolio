@@ -42,14 +42,11 @@ const MyNavbar = () => {
 
 
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ms-auto d-flex align-items-center justify-content-end w-100 " style={{ cursor: 'pointer' }}>
-          <ul className='mt-2' style={{ display: 'flex', gap: '50px', listStyle: 'none' }}>
-            <li><Link to="about" offset={-70}>About</Link></li>
-            <li><Link to="experience" offset={-70}>Experience</Link></li>
-            <li><Link to="project" offset={-70}>Projects</Link></li>
-            <li><Link to="skills" offset={-70}>Skills</Link></li>
-            
-          </ul>
+        <Nav className="ms-auto d-flex justify-content-end w-100 " style={{ cursor: 'pointer', gap: '20px', }}>
+          <Link to="about" smooth={true} offset={-70} duration={500}>About</Link>
+          <Link to="experience" smooth={true} offset={-70} duration={500}>Experience</Link>
+          <Link to="project" smooth={true} offset={-70} duration={500}>Projects</Link>
+          <Link to="skills" smooth={true} offset={-70} duration={500}>Skills</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

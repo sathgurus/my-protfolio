@@ -4,6 +4,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faInstagram, faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const SocialIcons = () => {
+
+    const handleContactClick = () => {
+        const email = "srisathguru13@gmail.com";
+        const body = "Hello Sathgurunathan,";
+    
+        // Construct the Gmail compose URL
+        const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=${email}&body=${encodeURIComponent(body)}`;
+
+    
+        // Open Gmail in a new tab
+        window.open(gmailURL, "_blank");
+      };
     return (
         <>
             <a
@@ -54,7 +66,7 @@ const SocialIcons = () => {
                 />
             </a>
             <div className='mt-3'>
-                <Button className='custom-button' >Contact</Button>
+                <Button className='custom-button' onClick={handleContactClick}>Contact</Button>
                 <Button className='mx-3 custom-button'>
                 <a className=''
                     href="/Sathgurunathan_resume.pdf"
